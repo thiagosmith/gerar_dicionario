@@ -1,0 +1,15 @@
+ftp
+anonymous
+msfadmin
+123456789
+service
+postgres
+batman
+shelby
+genesis
+147258
+kelsey
+snickers
+tomcat
+password
+elephant
