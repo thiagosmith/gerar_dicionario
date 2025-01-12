@@ -23,3 +23,9 @@ ZnRwOmZ0cAo=
 
 $ echo ZnRwOmZ0cAo= | base64 -d
 ftp:ftp
+
+$ wc -l wl_claro.txt                         
+225 wl_claro.txt
+
+$ wc -l wl_b64.txt  
+225 wl_b64.txt
