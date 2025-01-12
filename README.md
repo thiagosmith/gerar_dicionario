@@ -15,29 +15,11 @@ Processo concluído. Arquivos salvos:
 - Texto claro: wl_claro.txt
 - Base64: wl_b64.txt
 
-$ head wl_claro.txt                                                                                                              
+$ head -n1 wl_claro.txt                                                                                                              
 ftp:ftp
-ftp:anonymous
-ftp:msfadmin
-ftp:123456789
-ftp:service
-ftp:postgres
-ftp:batman
-ftp:shelby
-ftp:genesis
-ftp:147258
 
-$ head wl_b64.txt  
+$ head -n1 wl_b64.txt  
 ZnRwOmZ0cAo=
-ZnRwOmFub255bW91cwo=
-ZnRwOm1zZmFkbWluCg==
-ZnRwOjEyMzQ1Njc4OQo=
-ZnRwOnNlcnZpY2UK
-ZnRwOnBvc3RncmVzCg==
-ZnRwOmJhdG1hbgo=
-ZnRwOnNoZWxieQo=
-ZnRwOmdlbmVzaXMK
-ZnRwOjE0NzI1OAo=
 
-$ echo ZnRwOjE0NzI1OAo= | base64 -d
-ftp:147258
+$ echo ZnRwOmZ0cAo= | base64 -d
+ftp:ftp
