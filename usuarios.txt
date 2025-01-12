@@ -1,0 +1,15 @@
+ftp
+anonymous
+admin
+msfadmin
+root
+klog
+sys
+service
+postgres
+lucas
+camila
+pablo
+jonas
+euler
+tomcat
